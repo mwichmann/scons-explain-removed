@@ -1,0 +1,4 @@
+env = Environment()
+
+#env.Append(CCFLAGS='-O')
+env.Program('hello.c')
